@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e225c47f-6671-4ad5-b6f7-7bccff5911df" name="变更" comment="first version without deploypath" />
+    <list default="true" id="e225c47f-6671-4ad5-b6f7-7bccff5911df" name="变更" comment="first version">
+      <change afterPath="$PROJECT_DIR$/images/input_images/DemoRestorer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoImageClassification.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoImageClassification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoObjectDetection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoObjectDetection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoOcr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoOcr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoPoseDetection.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoPoseDetection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoRotatedDetection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoRotatedDetection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/DemoSegmentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoSegmentation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputObjectDetection.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputObjectDetection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputOcr.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputOcr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputPoseDetection.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputPoseDetection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputRestorer.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputRestorer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputRotatedDetection.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputRotatedDetection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/OutputSegmentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputSegmentation.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +82,7 @@
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/liyueyan",
+    "last_opened_file_path": "/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/install/example/golang",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -140,13 +154,13 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="first version" />
     <MESSAGE value="all the basic model has been made." />
     <MESSAGE value="All the code has been made" />
     <MESSAGE value="little correct" />
     <MESSAGE value="submit version" />
     <MESSAGE value="first version without deploypath" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version without deploypath" />
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
   <component name="VgoProject">
     <environment>
