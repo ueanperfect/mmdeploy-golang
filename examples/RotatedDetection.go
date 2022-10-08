@@ -3,7 +3,6 @@ package main
 /*
 #cgo LDFLAGS: -lmmdeploy
 #include <stdlib.h>
-#include "mmdeploy/detector.h"
 #include "mmdeploy/rotated_detector.h"
 int _mmdeploy_rotated_detector_apply(
 mmdeploy_rotated_detector_t detector,
@@ -50,6 +49,7 @@ func main() {
 	deviceName := os.Args[1]
 	modelPath := os.Args[2]
 	imagePath := os.Args[3]
+	outputPath := "images/output_images/OutputRotatedDetection.png"
 	var roated_detector C.mmdeploy_rotated_detector_t = nil
 	status := C.mmdeploy_rotated_detector_create_by_path(C.CString(modelPath), C.CString(deviceName), C.int(0), &roated_detector)
 	defer C.mmdeploy_rotated_detector_destroy(roated_detector)
@@ -83,7 +83,7 @@ func main() {
 		context.SetLineWidth(3)
 		context.Stroke()
 	}
-	context.SavePNG("OutputRotatedDetection.png")
+	context.SavePNG(outputPath)
 	fmt.Printf("result count: %v\n", count)
 	defer C.mmdeploy_rotated_detector_release_result((*C.struct_mmdeploy_rotated_detection_t)(rotated_detection), result_count)
 }

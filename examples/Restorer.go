@@ -31,7 +31,7 @@ func main() {
 	deviceName := os.Args[1]
 	modelPath := os.Args[2]
 	imagePath := os.Args[3]
-	outputPath := "imgs/OutputRestorer.png"
+	outputPath := "images/output_images/OutputRestorer.png"
 	var restorer C.mmdeploy_restorer_t = nil
 	status := C.mmdeploy_restorer_create_by_path(C.CString(modelPath), C.CString(deviceName), C.int(0), &restorer)
 	defer C.mmdeploy_restorer_destroy(restorer)

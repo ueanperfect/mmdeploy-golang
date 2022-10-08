@@ -31,7 +31,7 @@ func main() {
 	deviceName := os.Args[1]
 	modelPath := os.Args[2]
 	imagePath := os.Args[3]
-	outputPath := "/imgs/OutputPoseDetection.png"
+	outputPath := "images/output_images/OutputPoseDetection.png"
 	var poseDetector C.mmdeploy_pose_detector_t = nil
 	var poseDetection *C.mmdeploy_pose_detection_t = nil
 

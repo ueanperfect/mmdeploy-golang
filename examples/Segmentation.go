@@ -31,7 +31,7 @@ func main() {
 	deviceName := os.Args[1]
 	modelPath := os.Args[2]
 	imgPath := os.Args[3]
-	outputPath := "/imgs/OutputSegmentation.png"
+	outputPath := "images/output_images/OutputSegmentation.png"
 	var segmentor C.mmdeploy_segmentor_t = nil
 	var segmentation *C.mmdeploy_segmentation_t = nil
 

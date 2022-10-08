@@ -21,6 +21,10 @@
   <div>&nbsp;</div>
 </div>
 
+## Introduction
+
+Go API for mmdeploy~
+
 ## Prerequisites
 
 To make sure the building of this repo in success, you should install some pre-packages.
@@ -112,8 +116,8 @@ go build examples/PoseDetection.go
 Deploy rotated detection models converted by MMDeploy.
 
 ```bash
-go build example/RotatedDetection.go
-./RotatedDetection cpu ../mmdeploy-converted-models/retinanet ./images/demos/mmrotate_demo.jpg
+go build examples/RotatedDetection.go
+./RotatedDetection cpu models/rotated-detection images/input_images/DemoRotatedDetection.jpg
 ```
 
 ### OCR API
@@ -121,8 +125,8 @@ go build example/RotatedDetection.go
 Deploy text detection and text recognition models converted by MMDeploy.
 
 ```bash
-go build Ocr.go
-./Ocr cpu ../mmdeploy-converted-models/dbnet ../mmdeploy-converted-models/crnn ./images/demos/mmocr_demo.jpg
+go build examples/Ocr.go
+./Ocr cpu models/text-detection models/text-recognition images/input_images/DemoOcr.jpg
 ```
 
 ### Restorer API
@@ -130,7 +134,7 @@ go build Ocr.go
 Deploy restorer models converted by MMDeploy.
 
 ```bash
-go build Restorer.go
+go build examples/Restorer.go
 ./Restorer cpu models/super-resolution images/input_images/DemoRestorer.png
 ```
 

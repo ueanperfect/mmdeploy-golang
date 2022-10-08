@@ -58,7 +58,7 @@ func main() {
 	detModelPath := os.Args[2]
 	regModelPath := os.Args[3]
 	imgPath := os.Args[4]
-	outputPath := "/imgs/OutputOcr.png"
+	outputPath := "images/output_images/OutputOcr.png"
 
 	var textDetector C.mmdeploy_text_detector_t = nil
 	var textRecognizer C.mmdeploy_text_recognizer_t = nil

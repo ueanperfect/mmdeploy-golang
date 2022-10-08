@@ -36,7 +36,7 @@ func main() {
 	deviceName := os.Args[1]
 	modelPath := os.Args[2]
 	imagePath := os.Args[3]
-	outputPath := "/imgs/OutputObjectDetection.png"
+	outputPath := "images/output_images/OutputObjectDetection.png"
 	var detector C.mmdeploy_detector_t = nil
 	var detection *C.mmdeploy_detection_t = nil
 	var result_count *C.int = nil
