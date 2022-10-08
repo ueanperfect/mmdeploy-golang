@@ -1,9 +1,7 @@
 package main
 
 /*
-#cgo CFLAGS: -I/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/install/include
-#cgo LDFLAGS: -L/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/lib
-#cgo LDFLAGS: -lmmdeploy -Wl,-rpath=/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/lib
+#cgo LDFLAGS: -lmmdeploy
 #include <stdlib.h>
 #include "mmdeploy/classifier.h"
 int _mmdeploy_classification_apply(

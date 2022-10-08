@@ -1,9 +1,7 @@
 package main
 
 /*
-#cgo CFLAGS: -I/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/install/include
-#cgo LDFLAGS: -L/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/lib
-#cgo LDFLAGS: -lmmdeploy -Wl,-rpath=/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/lib
+#cgo LDFLAGS: -lmmdeploy
 #include <stdlib.h>
 #include "mmdeploy/detector.h"
 int _mmdeploy_detector_apply(mmdeploy_detector_t detector, uint8_t* data, int height, int width,
