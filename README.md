@@ -40,8 +40,8 @@ wget https://github.com/open-mmlab/mmdeploy/releases/download/v0.8.0/mmdeploy-0.
 tar -zxvf mmdeploy-0.8.0-linux-x86_64-onnxruntime1.8.1.tar.gz
 pushd mmdeploy-0.8.0-linux-x86_64-onnxruntime1.8.1
 export MMDEPLOY_DIR=$(pwd)
-export LD_LIBRARY_PATH=$MMDEPLOY_DIR/build/lib:$LD_LIBRARY_PATH
-export LIBRARY_PATH=$MMDEPLOY_DIR/build/lib:$LIBRARY_PATH
+export LD_LIBRARY_PATH=$MMDEPLOY_DIR/build/install/lib:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$MMDEPLOY_DIR/build/install/lib:$LIBRARY_PATH
 export CPATH=$MMDEPLOY_DIR/build/install/include:$CPATH
 popd
 wget https://github.com/microsoft/onnxruntime/releases/download/v1.8.1/onnxruntime-linux-x64-1.8.1.tgz
