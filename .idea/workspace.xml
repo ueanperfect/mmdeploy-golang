@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e225c47f-6671-4ad5-b6f7-7bccff5911df" name="变更" comment="完成所有文件修改，最终完善版本。">
-      <change afterPath="$PROJECT_DIR$/ImageClassification" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObjectDetection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoseDetection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restorer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RotatedDetection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segmentation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/ObjectDetection.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ObjectDetection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Ocr.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Ocr.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/PoseDetection.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PoseDetection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Restorer.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Restorer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/RotatedDetection.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/RotatedDetection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Segmentation.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Segmentation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/input_images/DemoRestorer.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/input_images/DemoRestorer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output_images/OutputObjectDetection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output_images/OutputOcr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output_images/OutputPoseDetection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output_images/OutputRestorer.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/output_images/OutputRestorer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output_images/OutputSegmentation.png" beforeDir="false" />
-    </list>
+    <list default="true" id="e225c47f-6671-4ad5-b6f7-7bccff5911df" name="变更" comment="完成所有文件修改，最终完善版本。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,27 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "true",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/install/example/golang/images/input_images",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/liyueyan/文档/mmdeploy_Project/mmdeploy/build/install/example/golang/images/input_images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/input_images" />

@@ -52,18 +52,8 @@ export LD_LIBRARY_PATH=$ONNXRUNTIME_DIR/lib:$LD_LIBRARY_PATH
 ```
 
 ## Quickstart
-
-Please read the previous section to make sure the required packages have been installed before using this crate.
-
-Update your *Cargo.toml*
-
-```toml
-mmdeploy = "0.8.1"
-```
-
-## APIs for MM Codebases
-
-Good news: Now, you can use Go language to build your fantastic applications powered by MMDeploy!
+ 
+After setting up the above instructions, you can use Go language to build your fantastic applications powered by MMDeploy!
 Take a look by running some examples!
 
 ### Models and Testdata
